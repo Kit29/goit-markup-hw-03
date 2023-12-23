@@ -1,0 +1,222 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color:#FFFFFF;
+}
+.logo {
+    color: var(--IRIS, #4D5AE5);
+font-family: "Raleway", sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.54px;
+text-transform: uppercase;
+text-decoration: none;
+}
+.logot {
+    color: var(--NAVY-BLUE, #2E2F42);
+font-family: "Raleway", sans-serif;
+font-style: normal;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.54px;
+text-transform: uppercase;
+text-decoration: none;
+}
+.orto {
+    list-style-type: none;
+}
+.pidlog {
+    color: var(--NAVY-BLUE, #2E2F42);
+
+/* Body Medium */
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-style: normal;
+line-height: 1.5;
+letter-spacing: 0.32px;
+text-decoration: none;
+font-weight: 500;
+}
+.pidlog:hover {
+    color: #404bbf;
+}
+.pidlog:focus{
+    color: #404bbf;
+}
+.ares {
+    font-style: normal;
+}
+.info {
+    color: var(--SLATE, #434455);
+
+/* Body */
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-style: normal;
+line-height: 1.5;
+letter-spacing: 0.32px;
+text-decoration: none;
+}
+.info:hover {
+    color: #404bbf;
+}
+.info:focus {
+    color: #404bbf;
+}
+.drusect {
+    background-color:#2e2f42;
+}
+.effe {
+    color: var(--WHITE, #FFF);
+text-align: center;
+line-height: 1.07;
+
+/* Header 1 */
+font-family: "Roboto", sans-serif;
+font-size: 56px;
+letter-spacing: 1.12px;
+}
+.service {
+background-color: #4D5AE5;
+font-family: "Roboto", sans-serif;
+color: var(--WHITE, #FFF);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.64px;
+cursor: pointer;
+}
+.service:hover {
+    background-color: #404BBF;
+}
+.service:focus {
+    background-color: #404BBF;
+}
+.strate {
+    color: var(--NAVY-BLUE, #2E2F42);
+
+/* Header 3 */
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.4px;
+line-height: 1.2;
+}
+.identify {
+    color: var(--SLATE, #434455);
+
+    /* Body */
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+.team {
+    background-color:var(--CLOUD, #F4F4FD);
+}
+.rrero {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    
+    /* Header 2 */
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+.liszka {
+background: var(--WHITE, #FFF);
+}
+.mark {
+    color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+
+/* Header 3 */
+font-family: "Roboto", sans-serif;
+font-size: 20px;
+line-height: 1,2;
+letter-spacing: 0.4px;
+font-weight: 500;
+line-height: 1.2; 
+}
+.product {
+    color: var(--SLATE, #434455);
+text-align: center;
+
+/* Body */
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.32px;
+}
+.omega {
+    background: var(--NAVY-BLUE, #2E2F42);
+}
+.jord {
+    color: var(--IRIS, #4D5AE5);
+font-family: "Raleway", sans-serif;
+font-size: 18px;
+font-style: normal;
+line-height: 1.17;
+letter-spacing: 0.54px;
+text-transform: uppercase;
+text-decoration: none;
+font-weight: 700;
+}
+.study {
+    color: var(--CLOUD, #F4F4FD);
+font-family: "Raleway", sans-serif;
+font-size: 18px;
+font-style: normal;
+line-height: 1.17;
+letter-spacing: 0.54px;
+text-transform: uppercase;
+text-decoration: none;
+}
+.increase {
+    color: var(--CLOUD, #F4F4FD);
+
+/* Body */
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.32px;
+}
+.port {
+    color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+
+/* Header 2 */
+font-family: "Roboto", sans-serif;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.72px;
+text-transform: capitalize;
+}
+.avrora {
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+background: var(--WHITE, #FFF);
+}
+.kurma {
+    color: var(--NAVY-BLUE, #2E2F42);
+
+/* Header 3 */
+font-family: "Roboto", sans-serif;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.4px;
+font-weight: 500;
+}
+.orard {
+    color: var(--SLATE, #434455);
+
+/* Body */
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.32px;
+}
