@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+<link rel="preconnect" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
- <header>
-    <nav>
+ <header class="header">
+    <div class="container">
+        <nav class="header-nav">
         <a href="./index.html" class="logo">Web<span class="logot">Studio</span></a>
-        <ul class="orto">
+        <ul class="header-menu">
             <li>
                 <a href="./index.html"  class="pidlog">Studio</a>
             </li>
@@ -26,7 +28,7 @@
         </ul>
     </nav>
         <address class="ares">
-            <ul class="orto">
+            <ul class="contacts header-nav">
             <li>
                 <a href="mailto:info@devstudio.com" class="info">info@devstudio.com</a>
             </li>
@@ -35,41 +37,45 @@
             </li>
         </ul>
     </address>
+</div>
 </header>
  <main>
     <!-- Hero section -->
-    <section class="drusect">
+    <section class="hero">
+        <div class="hero-container container"></div>
         <h1 class="effe">Effective Solutions
             for Your Business</h1>
             <button type="button" class="service">Order Service</button>
     </section>
     <!-- Features -->
-    <section>
-        <h2 hidden>Features</h2>
-        <ul class="orto">
-        <li>
-            <h3 class="strate">Strategy</h3>
-            <p class="identify">Our goal is to identify the business
-                problem to walk away with the perfect and creative solution. </p>
-        </li>
-        <li>
-            <h3 class="strate">Punctuality</h3>
-            <p class="identify">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
-        </li>
-        <li>
-            <h3 class="strate">Diligence</h3>
-            <p class="identify">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
-        </li>
-        <li>
-            <h3 class="strate">Technologies</h3>
-            <p class="identify">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
-        </li>
-    </ul>
+    <section class="perevagy">
+        <div class="container">
+            <h2 hidden>Features</h2>
+            <ul class="flex">
+            <li>
+                <h3 class="strate">Strategy</h3>
+                <p class="identify">Our goal is to identify the business
+                    problem to walk away with the perfect and creative solution. </p>
+            </li>
+            <li>
+                <h3 class="strate">Punctuality</h3>
+                <p class="identify">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+            </li>
+            <li>
+                <h3 class="strate">Diligence</h3>
+                <p class="identify">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
+            </li>
+            <li>
+                <h3 class="strate">Technologies</h3>
+                <p class="identify">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+            </li>
+        </ul>
+    </div>
 </section>
 <!-- Team section -->
     <section class="team">
         <h2 class="rrero">Our Team</h2>
-        <ul class="orto">
+        <ul class="opys">
             <li class="liszka">
                 <img
                 src="./images/img-3.jpg"

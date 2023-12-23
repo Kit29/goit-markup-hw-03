@@ -1,7 +1,26 @@
+.container { 
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+    }
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color:#FFFFFF;
+}
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+img {
+    display: block;
+}
+.header-nav {
+display: flex;
+gap: 100px;
+}
+.header-menu {
+    display: flex;
+    gap: 40px;
 }
 .logo {
     color: var(--IRIS, #4D5AE5);
@@ -24,8 +43,11 @@ letter-spacing: 0.54px;
 text-transform: uppercase;
 text-decoration: none;
 }
-.orto {
+.contacts {
     list-style-type: none;
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
 }
 .pidlog {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -65,13 +87,20 @@ text-decoration: none;
 .info:focus {
     color: #404bbf;
 }
-.drusect {
-    background-color:#2e2f42;
+.hero {
+    background: var(--NAVY-BLUE, #2E2F42);
+}
+.hero-container {
+    background: var(--NAVY-BLUE, #2E2F42);
 }
 .effe {
     color: var(--WHITE, #FFF);
 text-align: center;
 line-height: 1.07;
+padding: 188px;
+padding-right: 472px;
+padding-bottom: 292px;
+padding-left: 472px;
 
 /* Header 1 */
 font-family: "Roboto", sans-serif;
@@ -87,6 +116,10 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.64px;
 cursor: pointer;
+padding-top: 16px;
+padding-right: 32px;
+padding-bottom: 16px;
+padding-left: 32px;
 }
 .service:hover {
     background-color: #404BBF;
@@ -116,6 +149,11 @@ line-height: 1.2;
 }
 .team {
     background-color:var(--CLOUD, #F4F4FD);
+    width: 1440px;
+height: 732px;
+top: 1016px;
+
+
 }
 .rrero {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -219,4 +257,27 @@ font-family: "Roboto", sans-serif;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.32px;
+}
+.hero {
+    margin-bottom: 308px;
+}
+.perevagy {
+    margin-top: 120px;
+    margin-bottom:  120px;
+    margin-left: 156px;
+    margin-right: 156px;
+}
+.flex {
+    display: flex;
+    gap: 24px;
+}
+.opys {
+    width: 264px;
+    height: 380px;
+    top: 1248px;
+    left: 156px;
+    padding: 0px, 0px, 32px, 0px;
+    border-radius: 0px, 0px, 4px, 4px;
+    gap: 32px;
+    display: flex;
 }
