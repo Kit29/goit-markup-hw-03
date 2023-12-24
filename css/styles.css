@@ -171,6 +171,7 @@ margin-bottom: 8px;
     width: 1440px;
 height: 732px;
 top: 1016px;
+padding: 120px 0;
 }
 .rrero {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -186,9 +187,15 @@ top: 1016px;
     margin-left: 639px;
     margin-right: 639px;
     padding-top: 120px;
+    margin-bottom: 72px;
 }
 .liszka {
 background: var(--WHITE, #FFF);
+width: calc((100% - 72px) / 4);
+border-radius: 0px 0px 4px 4px;
+}
+.grgrgr {
+    padding: 32px 0;
 }
 .mark {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -201,6 +208,8 @@ line-height: 1,2;
 letter-spacing: 0.4px;
 font-weight: 500;
 line-height: 1.2; 
+text-align: center;
+margin-bottom: 8px;
 }
 .product {
     color: var(--SLATE, #434455);
@@ -211,6 +220,7 @@ font-family: "Roboto", sans-serif;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.32px;
+text-align: center;
 }
 .omega {
     background: var(--NAVY-BLUE, #2E2F42);
@@ -309,6 +319,7 @@ letter-spacing: 0.32px;
       }
 .ouch {
     width: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 .flex {
     display: flex;
@@ -324,6 +335,7 @@ letter-spacing: 0.32px;
     gap: 32px;
     display: flex;
     margin-top: 72px;
+    gap: 24px;
 }
 .portfolio {
     width: 360px;
