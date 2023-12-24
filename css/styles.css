@@ -10,12 +10,6 @@ h1, h2, h3, h4, h5, h6, p {
     list-style: none; 
 
 }
-.contacts {
-    display: flex;
-    padding-right: 100px;
-    padding-top: 24px;
-    border-left: 50px;
-}
 ul, ol {
 	margin-top: 0;
 	margin-bottom: 0;
@@ -81,8 +75,6 @@ text-decoration: none;
     list-style-type: none;
     display: flex;
     gap: 40px;
-    justify-content: flex-end;
-    margin-left: 760px;
 }
 .pidlog {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -105,11 +97,8 @@ display: block;
     color: #404bbf;
 }
 .ares {
-    font-style: normal;
     display: flex;
     align-items: center;
-    width: 1158px;
-    justify-content: space-between;
     margin-left: auto;
 }
 .info {
