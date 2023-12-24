@@ -12,6 +12,9 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .contacts {
     display: flex;
+    padding-right: 100px;
+    padding-top: 24px;
+    border-left: 50px;
 }
 ul, ol {
 	margin-top: 0;
@@ -30,6 +33,7 @@ ul, ol {
         align-items: center;
         width: 1158px;
         justify-content: space-between;
+
     }
 body {
     font-family: "Roboto", sans-serif;
@@ -106,6 +110,7 @@ display: block;
     align-items: center;
     width: 1158px;
     justify-content: space-between;
+    margin-left: auto;
 }
 .info {
     color: var(--SLATE, #434455);
@@ -117,6 +122,10 @@ font-style: normal;
 line-height: 1.5;
 letter-spacing: 0.32px;
 text-decoration: none;
+display: flex;
+padding-top: 24px;
+padding-bottom: 24px;
+
 }
 .info:hover {
     color: #404bbf;
