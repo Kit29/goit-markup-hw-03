@@ -26,6 +26,7 @@ ul, ol {
     .header-container {
         display: flex;
         align-items: center;
+        width: 1158px;
     }
 body {
     font-family: "Roboto", sans-serif;
