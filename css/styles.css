@@ -245,7 +245,6 @@ text-transform: capitalize;
 .avrora {
 border: 1px solid var(--CORNFLOWER, #E7E9FC);
 background: var(--WHITE, #FFF);
-width: calc((100% - 3 * 24px) / 3);
 }
 .kurma {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -293,11 +292,7 @@ letter-spacing: 0.32px;
 .portfolio {
     width: 360px;
     height: 420px;
-
+    display: flex;
 }
 .gap {
-    margin-top: 32px;
-    margin-bottom: 32px;
-    width: 360px;
-    height: 420px;
 }
