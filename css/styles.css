@@ -27,6 +27,7 @@ ul, ol {
         display: flex;
         align-items: center;
         width: 1158px;
+        justify-content: space-between;
     }
 body {
     font-family: "Roboto", sans-serif;
@@ -74,6 +75,7 @@ text-decoration: none;
     display: flex;
     gap: 40px;
     justify-content: flex-end;
+    margin-left: 760px;
 }
 .pidlog {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -97,6 +99,10 @@ display: block;
 }
 .ares {
     font-style: normal;
+    display: flex;
+    align-items: center;
+    width: 1158px;
+    justify-content: space-between;
 }
 .info {
     color: var(--SLATE, #434455);
